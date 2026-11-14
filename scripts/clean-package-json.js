@@ -87,11 +87,10 @@ for (const childrenName of srcChildrenList) {
 packageJson = {
   ...packageJson,
   main: cjsPrefix + '/index.js', // 旧版本 CommonJs 入口
-  // module: esPrefix + '/index.js', // 旧版本 ESM 入口
   types: dtsPrefix + '/index.d.ts', // 旧版本类型入口
   author: {
     name: '泥豆君',
-    email: 'Mr.MudBean@outlook.com',
+    email: 'MudBean@outlook.com',
     url: 'https://mudbean.cn',
   },
   description: '简单测试用',
@@ -110,16 +109,16 @@ packageJson = {
       },
     },
   },
-  keywords: ['dev', 'mudbean', 'vvi'],
+  keywords: ['dev', 'vvi'],
   homepage: 'https://npms.gleanings.cn/dev',
   dependencies,
   bugs: {
-    url: 'https://github.com/gleanings/dev/issues',
+    url: 'https://github.com/hippopotomonstrosesquipedaliophobe/dev/issues',
     email: 'Mr.MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/gleanings/dev.git',
+    url: 'git+https://github.com/hippopotomonstrosesquipedaliophobe/dev.git',
   },
   publishConfig: {
     access: 'public',
